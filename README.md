@@ -1,5 +1,3 @@
-👉 Create a file named README.md in your repository and paste this:
-
 # Internee.pk Website Clone – Cloud Deployment Project
 
 This project is a **frontend clone of the official Internee.pk website**, developed using **HTML, CSS, and JavaScript**, and deployed on **AWS using S3 and CloudFront** as part of a frontend/cloud learning project.
