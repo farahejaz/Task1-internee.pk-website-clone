@@ -1,15 +1,9 @@
-# Internee.pk Website Clone – Cloud Deployment Project
-
 This project is a **frontend clone of the official Internee.pk website**, developed using **HTML, CSS, and JavaScript**, and deployed on **AWS using S3 and CloudFront** as part of a frontend/cloud learning project.
-
----
 
 ## 📌 Project Objective
 - Replicate the UI/UX of the Internee.pk website
 - Host a static website using **AWS best practices**
 - Gain hands-on experience with **cloud deployment and CDN**
-
----
 
 ## 🛠️ Technologies Used
 
@@ -23,8 +17,6 @@ This project is a **frontend clone of the official Internee.pk website**, develo
 - **AWS CloudFront** – CDN, HTTPS, global delivery
 - **AWS IAM** – Secure access control
 - **AWS Certificate Manager (ACM)** – SSL (via CloudFront)
-
----
 
 ## 📂 Project Structure
 
@@ -40,9 +32,6 @@ internee-pk-website-clone/
 ├── images/
 └── README.md
 
-
----
-
 ## ☁️ Cloud Architecture
 
 
@@ -56,7 +45,6 @@ v
 Amazon S3 (Static Website Hosting)
 
 
----
 
 ## ⚙️ Deployment Steps
 
@@ -74,14 +62,12 @@ Amazon S3 (Static Website Hosting)
 - Viewer protocol policy set to **Redirect HTTP to HTTPS**
 - Enabled caching for faster global delivery
 
----
 
 ## 🔐 Security & Performance
 - HTTPS enabled using CloudFront
 - No backend server required (cost-efficient)
 - Global CDN for low-latency performance
 
----
 
 ## 🎯 Learning Outcomes
 - Static website hosting on AWS
@@ -89,7 +75,6 @@ Amazon S3 (Static Website Hosting)
 - Cloud deployment best practices
 - Real-world frontend + cloud project experience
 
----
 
 ## 📌 Future Improvements
 - CI/CD with GitHub Actions
@@ -97,7 +82,6 @@ Amazon S3 (Static Website Hosting)
 - Backend integration (Node.js / API)
 - SEO optimization
 
----
 
 ## 👩‍💻 Author
 **Farah Ejaz**  
@@ -106,6 +90,17 @@ Frontend & Cloud Computing Enthusiast
 🔗 LinkedIn: https://www.linkedin.com/in/farah-ejaz/
 🔗 GitHub: https://github.com/farahejaz
 
----
+Here are the screenshots of the project.....
 
-⭐ If you like this project, feel free to star the repository!
+Bucket:
+<img width="1260" height="489" alt="bucket" src="https://github.com/user-attachments/assets/7d239a1f-8463-49d2-9cd1-509c03b700f5" />
+
+Hosted on S3:
+<img width="1243" height="614" alt="S3 hosting" src="https://github.com/user-attachments/assets/1756646d-0301-4031-8322-535e4cd80d06" />
+
+<img width="1264" height="573" alt="s3 server" src="https://github.com/user-attachments/assets/b4110aad-7441-44ed-a9d1-1b2c9ec59da0" />
+
+Hit from Cloudfront
+<img width="1271" height="608" alt="hit fromcloudfront" src="https://github.com/user-attachments/assets/dd935db9-ec06-4b2b-94bf-318a98f2b2ba" />
+
+If you like this project, feel free to star the repository!
